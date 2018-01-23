@@ -19,9 +19,13 @@ In the wiki it is explained the global view of the project to be developed, then
 
 ## Tasks / Issues
 
-Are the base of any development project. Any kind of development will be splitted in simple tasks in order to ease the development and also the planification and management of the features. The tasks should be as simple as possible, if a task is very extense or complicated they should be devided into several more simple taks: Divide and Conquer!
+Are the base of any development project. Any kind of development will be splitted in simple tasks in order to ease the development and also the planification and management of the features. The tasks should be as simple as possible, if a task is very extense or complicated they should be devided into several more simple tasks: Divide and Conquer!
 
 Each task contains always minimum 4 labels providing *Type*, *Priority*, *Size* and *Status*
+
+### Labels
+
+![Labels](images/labels.png)
 
 
 
