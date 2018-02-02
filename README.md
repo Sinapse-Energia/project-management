@@ -14,12 +14,17 @@ The management system is based in the following blocks or pillars
 ## Roles
 
 ### Product Owner
-Responsible of the product, project or development. 
+
+Responsible of the product, project or development. It is the responsible of the global design of the product and the priorities. He can change the priorities but with the consent of the Scrum Master
 
 ### Scrum Master
 
+Responsible of the technical design and the division into tasks, supervise the development and the correct execution of the tasks. 
+Set the tasks into Sprints (with the help of the developers) and plan and manage all the required meetings
+
 ### Developers
 
+Responsible of the tasks development and basic testing following priorities and estimating the effort. They can change the size of a task after speak with the Scrum Master. They should finish all the taks planned in a Sprint or inform about possible problems as soon as possible.
 
 ## Wiki
 
@@ -33,10 +38,13 @@ They are the base of any development project. Any kind of development will be sp
 
 Each task contains always minimum 4 labels providing *Type*, *Priority*, *Size* and *Status*
 
-*Type*: Indicates what kind of task is, like bug, feature, design or enhancement. Set by the Scrum Master
-*Priority*: There are three priorities: Low, Normal and High. If a developer has several tasks assigned in the same milestone, it should focus at first in the High priority tasks. Set by the Product Owner and Scrum Master
-*Size* or story points: It is a relative measurement related with the complexity and necessary time to be invested in order to finish it. It is a tool that try to ease the stimation. To stimate using time is not very exact and normally the stimations never works. The sizes normally maps a interval of time, but not always. Set by the Scrum Master and Developers
-*Status*: Indicates how is the task at the current moment. Set by Scrum Master and Developers
+**Type**: Indicates what kind of task is, like bug, feature, design or enhancement. Set by the Scrum Master
+
+**Priority**: There are three priorities: Low, Normal and High. If a developer has several tasks assigned in the same milestone, it should focus at first in the High priority tasks. Set by the Product Owner and Scrum Master
+
+**Size** or story points: It is a relative measurement related with the complexity and necessary time to be invested in order to finish it. It is a tool that try to ease the stimation. To stimate using time is not very exact and normally the stimations never works. The sizes normally maps a interval of time, but not always. Set by the Scrum Master and Developers
+
+**Status**: Indicates how is the task at the current moment. Set by Scrum Master and Developers
 
 ### Labels
 
@@ -44,6 +52,30 @@ Each task contains always minimum 4 labels providing *Type*, *Priority*, *Size* 
 
 ### Management of the Issues
 
+TODO
+
+## Milestones and Sprints
+
+As above explained, the development it is divided into tasks and this tasks will be grouped in Milestones. There are two types of Milestones:
+
+- Backlog: Contains all the tasks planned but not finished nor assigned to any Sprint
+- Sprint [WX]: Contains the tasks to be developed during a given Sprint
+
+### Sprint Basics
+
+* Timeframe : 2 Weeks. Start at Monday and finish on Friday
+* Name convention: Sprint [WX YEAR], where X is the number of the week when the Sprint finishes
+* Tasks: Contains N tasks that where in the backlog and should be finished in the current Sprint. If any task is not finished during the Sprint return to the backlog. All the tasks finished remain in the Sprint easing the retrospective
+* Size of the Sprint: The size represents the addition of the tasks size assigned to the Sprint. This size depends of the number of developers working on the Sprint and their availability. The size should be as maximum equal to NumberOfDevelopers * 21
+* Developer Effort: By default, a full time developer could finish **21** points in each Sprint. 
+
+### Sprint Meetings
+
+
+* Sprint planning: Friday before the beginning date of the Sprint 
+* Sprint review: Last Thursday of the current Sprint
+
+Example: For Sprint [W4 2018], Sprint Planning was Friday of W2 and the Sprint Review was the Thursday of the W4
 
 
 # External ressources
