@@ -7,7 +7,7 @@ Due to the complexity of the projects and the worldwide ressources involved in t
 
 It will be implemented a kind of SCRUM management system that will be very basic at first and then will be growing in complexity if it required. 
 
-![Scrum Flow](images/ScrumFramworkFlow.png)
+![Scrum Flow](images/ScrumFrameworkFlow.png)
 
 # Building blocks
 
