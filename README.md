@@ -81,5 +81,9 @@ Example: For Sprint [W4 2018], Sprint Planning was Friday of W2 and the Sprint R
 # External ressources
 
 https://codetree.com/guides/sprint-planning-github-issues
+
 https://github.com/jvandemo/github-scrum-workflow
+
 https://medium.com/@dtinth/how-to-copy-github-labels-from-one-project-to-another-1857adc73e0f
+
+https://www.mitchlacey.com/
